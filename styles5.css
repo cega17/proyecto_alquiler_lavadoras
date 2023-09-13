@@ -1,0 +1,50 @@
+/* Estilos para la Página de Confirmación de Reserva */
+.confirmacion-reserva {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.reserva-detalles {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.reserva-detalles h3 {
+    margin-top: 0;
+}
+
+.acciones {
+    margin-top: 20px;
+}
+
+.recibo-link,
+.continuar-link {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.recibo-link {
+    background-color: #007BFF;
+    color: #fff;
+}
+
+.recibo-link:hover {
+    background-color: #0056b3;
+}
+
+.continuar-link {
+    background-color: #ddd;
+    color: #333;
+}
+
+.continuar-link:hover {
+    background-color: #bbb;
+}

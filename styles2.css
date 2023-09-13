@@ -1,0 +1,33 @@
+/* Estilos para la lista de lavadoras */
+.lavadoras-lista {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.lavadoras {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.lavadoras li {
+    width: 45%; /* Controla el ancho de cada elemento de lavadora */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.lavadoras img {
+    max-width: 100%;
+}
+
+/* Estilos adicionales según sea necesario */

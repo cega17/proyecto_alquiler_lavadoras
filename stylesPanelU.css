@@ -1,0 +1,35 @@
+/* Estilos para el Panel de Usuario */
+.panel-usuario {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+#contenido {
+    margin-top: 20px;
+}
+
+/* Otros estilos según sea necesario */

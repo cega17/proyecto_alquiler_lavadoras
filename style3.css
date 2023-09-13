@@ -1,0 +1,42 @@
+/* Estilos para la Página de Detalles de la Lavadora */
+.detalles-lavadora {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.lavadora-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.lavadora-info img {
+    max-width: 200px;
+    max-height: 200px;
+    margin-right: 20px;
+}
+
+.descripcion {
+    text-align: left;
+}
+
+.reservar-button {
+    padding: 15px 30px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.reservar-button:hover {
+    background-color: #0056b3;
+}
+
+/* Otros estilos según sea necesario */

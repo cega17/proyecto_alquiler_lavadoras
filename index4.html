@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservar Lavadora</title>
+    <link rel="stylesheet" type="text/css" href="styles4.css">
+</head>
+<body>
+    <header>
+        <h1>Alquiler de Lavadoras</h1>
+    </header>
+    <main>
+        <section class="reserva">
+            <h2>Reservar Lavadora</h2>
+            <form>
+                <label for="fecha-inicio">Fecha de Inicio:</label>
+                <input type="datetime-local" id="fecha-inicio" name="fecha-inicio" required>
+                
+                <label for="fecha-fin">Fecha de Fin:</label>
+                <input type="datetime-local" id="fecha-fin" name="fecha-fin" required>
+                
+                <h3>Resumen de la Reserva</h3>
+                <p>Fecha de Inicio: <span id="resumen-fecha-inicio"></span></p>
+                <p>Fecha de Fin: <span id="resumen-fecha-fin"></span></p>
+                <p>Total a Pagar: $<span id="total-a-pagar">0.00</span></p>
+                
+                <button type="button" id="realizar-pago">Realizar Pago</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script> <!-- Agrega el archivo JavaScript para la funcionalidad -->
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Página de Pago</title>
+    <link rel="stylesheet" type="text/css" href="stylesPago.css">
+</head>
+<body>
+    <header>
+        <h1>Alquiler de Lavadoras</h1>
+    </header>
+    <main>
+        <section class="pago">
+            <h2>Pago</h2>
+            <form id="formulario-pago">
+                <label for="nombre-tarjeta">Nombre en la Tarjeta:</label>
+                <input type="text" id="nombre-tarjeta" name="nombre-tarjeta" required>
+                
+                <label for="numero-tarjeta">Número de Tarjeta:</label>
+                <input type="text" id="numero-tarjeta" name="numero-tarjeta" required>
+                
+                <label for="fecha-expiracion">Fecha de Expiración:</label>
+                <input type="text" id="fecha-expiracion" name="fecha-expiracion" placeholder="MM/AA" required>
+                
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" name="cvv" required>
+                
+                <button type="submit">Realizar Pago</button>
+            </form>
+            <div id="confirmacion-pago">
+                <!-- Aquí se mostrará la confirmación de pago después de enviar el formulario -->
+            </div>
+        </section>
+    </main>
+</body>
+</html>
